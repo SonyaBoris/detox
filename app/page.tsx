@@ -19,10 +19,12 @@ export default function Home() {
         <MethodSection />
         <ProgramSection />
         <FeaturesSection />
-        <IncludedSection />
-        <WhoSection />
+        <div className="paired-sections">
+          <IncludedSection />
+          <WhoSection />
+        </div>
         <DatesSection />
-        <GallerySection />
+        {/* <GallerySection /> */}
         <TestimonialsSection />
         <ContactsSection />
       </main>

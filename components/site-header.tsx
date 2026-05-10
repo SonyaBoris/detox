@@ -1,16 +1,13 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import ActionLink from "@/components/ui/action-link";
 
 const navItems = [
   { href: "#method", label: "О методе" },
   { href: "#program", label: "Программа" },
-  { href: "#features", label: "Особенности" },
-  { href: "#included", label: "Что включено" },
-  { href: "#who", label: "Кому подходит" },
   { href: "#dates", label: "Даты" },
-  { href: "#gallery", label: "Галерея" },
   { href: "#testimonials", label: "Отзывы" },
   { href: "#contacts", label: "Контакты" },
 ];
@@ -21,8 +18,17 @@ export default function SiteHeader() {
   return (
     <header className="site-header">
       <div className="site-header__inner">
-        <a className="site-header__brand" href="#hero">
-          Шавасана · Волга
+        <a className="site-header__brand" href="#hero" onClick={() => setOpen(false)}>
+          <span className="site-header__logo-wrap" aria-hidden="true">
+            <Image
+              src="/logo.jpg"
+              alt=""
+              width={44}
+              height={44}
+              className="site-header__logo"
+              priority
+            />
+          </span>
         </a>
 
         <button
@@ -46,7 +52,7 @@ export default function SiteHeader() {
           ))}
           <ActionLink
             variant="nav"
-            href="https://t.me/"
+            href="https://t.me/Shavasanaaaa"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setOpen(false)}

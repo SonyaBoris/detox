@@ -13,8 +13,8 @@ export default function HeroSection() {
             отвары с медом, свежевыжатые соки, ежедневные практики и поддержка
             доктора.
           </p>
-          <ActionLink href="https://t.me/" target="_blank" rel="noopener noreferrer">
-            Записаться к Юлии в Telegram
+          <ActionLink href="https://t.me/Shavasanaaaa" target="_blank" rel="noopener noreferrer">
+            Записаться
           </ActionLink>
         </div>
         <LazyImage
@@ -22,6 +22,7 @@ export default function HeroSection() {
           alt="Условное голодание в ретрит-центре Шавасана"
           width={640}
           height={800}
+          wrapperClassName="hero-photo-wrap"
           className="block-photo"
           sizes="(max-width: 900px) 100vw, 40vw"
           priority

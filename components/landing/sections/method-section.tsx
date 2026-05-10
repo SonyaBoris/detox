@@ -1,19 +1,19 @@
 import LazyImage from "@/components/lazy-image/lazy-image";
-import SectionBlock from "@/components/landing/section-block";
 
 export default function MethodSection() {
   return (
-    <SectionBlock id="method" title="О методе Марвы Оганян" className="method">
+    <section id="method" className="method section-wrap">
       <div className="method-layout">
         <LazyImage
           src="/2.jpg"
           alt="Практики по методике Марвы Оганян"
-          width={640}
-          height={800}
+          width={440}
+          height={600}
           className="block-photo"
           sizes="(max-width: 900px) 100vw, 38vw"
         />
         <div className="method-copy">
+          <h2>О методе</h2>
           <p>
             Марва Оганян — врач-терапевт и биохимик. Согласно подходу методики,
             когда организм перестает тратить большую часть ресурса на
@@ -31,6 +31,6 @@ export default function MethodSection() {
           </p>
         </div>
       </div>
-    </SectionBlock>
+    </section>
   );
 }
