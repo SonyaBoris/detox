@@ -17,8 +17,11 @@ const programItems: ChipListItem[] = [
 
 export default function ProgramSection() {
   return (
-    <SectionBlock id="program" title="Программа ретрита">
-      <ChipList items={programItems} imageSrc="/1.jpg" />
+    <SectionBlock id="program" title="Программа ретрита" className="program" hideTitle>
+      <div className="section-panel">
+        <h2>Программа ретрита</h2>
+        <ChipList items={programItems} imageSrc="/1.jpg" />
+      </div>
     </SectionBlock>
   );
 }

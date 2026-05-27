@@ -1,10 +1,10 @@
 import ContactsSection from "@/components/landing/sections/contacts-section";
 import DatesSection from "@/components/landing/sections/dates-section";
 import FeaturesSection from "@/components/landing/sections/features-section";
-import GallerySection from "@/components/landing/sections/gallery-section";
 import HeroSection from "@/components/landing/sections/hero-section";
 import IncludedSection from "@/components/landing/sections/included-section";
 import MethodSection from "@/components/landing/sections/method-section";
+import MastersSection from "@/components/landing/sections/masters-section";
 import ProgramSection from "@/components/landing/sections/program-section";
 import TestimonialsSection from "@/components/landing/sections/testimonials-section";
 import WhoSection from "@/components/landing/sections/who-section";
@@ -19,13 +19,14 @@ export default function Home() {
         <MethodSection />
         <ProgramSection />
         <FeaturesSection />
+        <MastersSection />
         <div className="paired-sections">
           <IncludedSection />
           <WhoSection />
         </div>
         <DatesSection />
         {/* <GallerySection /> */}
-        <TestimonialsSection />
+        {/* <TestimonialsSection /> */}
         <ContactsSection />
       </main>
     </>

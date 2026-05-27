@@ -7,6 +7,7 @@ import ActionLink from "@/components/ui/action-link";
 const navItems = [
   { href: "#method", label: "О методе" },
   { href: "#program", label: "Программа" },
+  { href: "#masters", label: "Мастера" },
   { href: "#dates", label: "Даты" },
   { href: "#testimonials", label: "Отзывы" },
   { href: "#contacts", label: "Контакты" },

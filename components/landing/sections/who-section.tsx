@@ -10,12 +10,15 @@ const whoFits = [
 
 export default function WhoSection() {
   return (
-    <SectionBlock id="who" title="Кому подходит">
-      <CheckList items={whoFits} />
-      <p className="note">
-        Голод чувствовать будет некогда: день заполнен практиками и
-        активностями.
-      </p>
+    <SectionBlock id="who" title="Кому подходит" hideTitle>
+      <div className="section-panel">
+        <h2>Кому подходит</h2>
+        <CheckList items={whoFits} />
+        <p className="note">
+          Голод чувствовать будет некогда: день заполнен практиками и
+          активностями.
+        </p>
+      </div>
     </SectionBlock>
   );
 }
