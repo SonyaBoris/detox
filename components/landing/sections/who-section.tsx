@@ -10,7 +10,7 @@ const whoFits = [
 
 export default function WhoSection() {
   return (
-    <SectionBlock id="who" title="Кому подходит" hideTitle>
+    <SectionBlock id="who" title="Кому подходит" className="who" hideTitle>
       <div className="section-panel">
         <h2>Кому подходит</h2>
         <CheckList items={whoFits} />

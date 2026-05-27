@@ -2,7 +2,7 @@ import SectionBlock from "@/components/landing/section-block";
 
 export default function DatesSection() {
   return (
-    <SectionBlock id="dates" title="Ближайшие даты" hideTitle>
+    <SectionBlock id="dates" title="Ближайшие даты" className="dates" hideTitle>
       <div className="section-panel">
         <h2>Ближайшие даты</h2>
         <div className="dates-grid">

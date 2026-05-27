@@ -11,7 +11,7 @@ const includedItems = [
 
 export default function IncludedSection() {
   return (
-    <SectionBlock id="included" title="Что включено" hideTitle>
+    <SectionBlock id="included" title="Что включено" className="included" hideTitle>
       <div className="section-panel">
         <h2>Что включено</h2>
         <CheckList items={includedItems} />
